@@ -436,3 +436,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
 	libnl \
 	libwfdaac
+
+# Droidmedia: We need this for video recorder to be fixed.
+MINIMEDIA_AUDIOPOLICYSERVICE_ENABLE := 1
